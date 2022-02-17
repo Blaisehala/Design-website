@@ -6,3 +6,19 @@
 body{
     background-color: aqua;
 }
+.one{
+    margin-top: 20px;
+    background-image: url(./img/images.jpg);
+    background-size: cover;
+    height: 1000px;
+}
+.side{
+    width: 700px;
+    height: 600px;
+    background-color: blue;
+    position: relative;
+    bottom: 800px;
+}
+span{
+    color: brown;
+}
