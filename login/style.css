@@ -1,0 +1,62 @@
+*{
+  box-sizing: content-box;
+  padding:0;
+  margin:0;
+}
+
+
+.container{
+  height: 1000px;
+  background-image: url(./images/Ocean.jpg) ;
+  /* background-color: */
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+
+form{
+  background-color: #ffffff;
+  height: 450px;
+  width: 400px;
+  padding: 20px;
+  
+}
+
+
+input{
+  /* border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style:groove; */
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid rgb(154, 185, 199);
+}
+
+input:hover{
+  border: none;
+  border-bottom: 2px solid rgb(154, 185, 199);
+
+}
+
+button{
+  font-weight: bold;
+  color: #ffffff;
+  width: 100px;
+  height: 40px;
+  background-color: rgb(27, 125, 238);
+  border-radius: 20px;
+  border-style: none;
+  float: right;
+}
+
+.fa-brands{
+  padding: 10px;
+
+}
