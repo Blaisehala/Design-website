@@ -10,14 +10,16 @@ body{
     margin-top: 20px;
     background-image: url(./img/images.jpg);
     background-size: cover;
-    height: 1000px;
+    height: 800px;
+    z-index: 2;
 }
 .side{
     width: 700px;
     height: 600px;
     background-color: blue;
-    position: relative;
-    bottom: 800px;
+    z-index: 1;
+    /* position: relative;
+    bottom: 800px; */
 }
 span{
     color: brown;
