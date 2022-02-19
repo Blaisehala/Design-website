@@ -4,8 +4,15 @@
     padding: 0;
 }
 body{
-    background-color: aqua;
+    background-color: white;
     font-size: 20px;
+}
+hr{
+    width: 90px;
+    height: 5px;
+    background-color: red;
+    margin-top: 5px;
+    border-style: none;
 }
 .one{
     margin-top: 20px;
@@ -20,7 +27,7 @@ input{
 .side{
     width: 700px;
     height: 600px;
-    background-color: blue;
+    background-color: white;
     position: relative;
     top: 100px;
     
@@ -33,7 +40,7 @@ img{
     bottom: 240px;
 }
 span{
-    color: brown;
+    color: red;
 }
 .two{
     display: flex;
