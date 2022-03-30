@@ -1,4 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 body{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    background-color: #e5e5e5;
 }
+/* container styling */
+.container{
+    background-color: white;
+    height: 130vh;
+    padding-top: 5%;
+}
+
+/* main heading styling */
+.main{
+    margin-top: 2%;
+}
+
+.main h2{
+    color: #333333;
+    font-size: 25px;
+    line-height: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+
+.heading2{
+    font-size: 25px;
+    line-height: 16px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    color: #f84650;
+    margin-left: 4%;
+    margin-top: 2%;
+}
+/* image */
+.interior img{
+    width: 40%;
+    height: 85vh;
+    margin-left: 4%;
+}
+
+/* heading 3 */
+.heading3 h3 {
+    margin-left: 33rem;
+    margin-top: -32rem;
+    color: #333333;
+    font-size: 18px;
+    line-height: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+hr{
+    width: 50%;
+    border: 3px solid rgb(219, 219, 219);
+    margin-left: 34rem;
+    margin-top: 5%;
+}
+
+/* calendar */
+.cal{
+    margin-left: 33rem;
+    margin-top: 4%;
+}
+
+.cal p{
+    margin-left: 6%;
+    margin-top: -4%;
+    font-weight: normal;
+    color: #cccccc;
+}
+
+/* place */
+.place{
+    margin-left: 33rem;
+    margin-top: 2%;
+}
+
+.place p{
+    margin-left: 6%;
+    margin-top: -4%;
+    font-weight: normal;
+    color: #cccccc;
+}
+
+/* cafe */
+.cafe{
+    margin-left: 68%;
+    margin-top: -8%;
+    font-size: 12px;
+}
+
+
+.cafe p{
+    margin-top: 10%;
+    color: #cccccc;
+    font-size: 13px;
+}
+/* building and developing styling */
+.build{
+    margin-left: 47%;
+}
+
+.build p{
+    margin-left: 6%;
+    margin-top: -4%;
+    font-weight: normal;
+    color: #cccccc;
+}
+
+.build p{
+    margin-left: 6%;
+    margin-top: -4%;
+    font-weight: normal;
+    color: #cccccc;
+}
+
+.homeland{
+    margin-left: 70%;
+    margin-top: -8%;
+    font-size: 12px;
+}
+
+
+.homeland p{
+    margin-top: 10%;
+    color: #cccccc;
+    font-size: 13px;
+}
+
+
